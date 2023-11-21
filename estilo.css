@@ -284,34 +284,34 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 89%;}
+    100%{width: 66%;}
 }
 
 .skills .skill .photoshop{
     width: 0%;
-    animation: 2s photoshop forwards;
+    animation: 2s React-Redux forwards;
 }
-@keyframes photoshop {
+@keyframes React-Redux {
     0%{width: 0%;}
-    100%{width: 95%;}
+    100%{width: 72%;}
 }
 
 .skills .skill .wordpress{
     width: 0%;
-    animation: 2s wordpress forwards;
+    animation: 2s Nodejs-Express forwards;
 }
-@keyframes wordpress {
+@keyframes Nodejs-Express {
     0%{width: 0%;}
-    100%{width: 81%;}
+    100%{width: 84%;}
 }
 
 .skills .skill .drupal{
     width: 0%;
-    animation: 2s drupal forwards;
+    animation: 2s PostgreSQL-Sequelize forwards;
 }
-@keyframes drupal {
+@keyframes PostgreSQL-Sequelize {
     0%{width: 0%;}
-    100%{width: 55%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .comunicacion{
@@ -338,7 +338,7 @@ html{
 }
 @keyframes creatividad {
     0%{width: 0%;}
-    100%{width: 99%;}
+    100%{width: 65%;}
 }
 
 .skills .skill .dedicacion{
@@ -347,7 +347,7 @@ html{
 }
 @keyframes dedicacion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 95%;}
 }
 
 .skills .skill .proyect{
@@ -356,7 +356,7 @@ html{
 }
 @keyframes proyect {
     0%{width: 0%;}
-    100%{width: 94%;}
+    100%{width: 90%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
@@ -590,7 +590,7 @@ html{
     top: 40%;
     background-color: #252A2E;
     padding: 20px;
-    max-swidth: 350px;
+    max-width: 350px;
     left: 50%;
     transform: translate(-50%, -50%);
 }
