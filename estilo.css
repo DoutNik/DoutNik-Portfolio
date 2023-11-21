@@ -195,7 +195,7 @@ html{
     position: relative;
     z-index: 10;
 }
-.sobremi button a{
+.sobremi a{
     text-decoration: none; /* Elimina el subrayado */
     color: inherit; /* Hereda el color del texto del botón */
 }
