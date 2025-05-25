@@ -1,0 +1,51 @@
+Hola a todos, bienvenidos a locanjeamos.com.ar, un sitio web pensado para que puedas canjear lo que no usas, por algo que necesites. El funcionamiento de esta pagina está inspirado en Tinder, por lo que, para que se genere un canje entre dos productos, debe haber coincidencia de intereses entre dos usuarios.
+
+Cabe destacar que esta una página web progresiva, eso significa que se puede descargar y usar como aplicación en cualquier sistema operativo soportado, asi como Windows, Mac, Android y otros grandes del mercado.
+
+------
+
+En nuestro sitio existen dos tipos de usuarios, el normal y el premium, un usuario normal solo podrá subir un numero limitado de publicaciónes a la vez y para concretar un canje debera esperar a que el otro usuario también le de canje a su publicación, cosa que puede pasar o no, ya que, como mencionamos anteriormente, funciona por coincidencia de intereses como Tinder. 
+
+En cambió los usuarios premium pueden subir publicaciones ilimitadas, posicionar mejor sus productos y acceder a un apartado donde se le muestran los pedidos de canje que han recibido sus productos, por lo tanto puede hacer un canje instantáneo si el producto es de su interés. 
+
+-------
+
+Ni bien ingresemos al sitio, nos situaremos en la Home page(o pagina principal), dónde vamos a ver un carrusel con las publicaciones de los usuarios premium y, por debajo, el resto de las publicaciones, que se encuentran divididas por un paginado simple y las cuales podremos filtrar por ubicación y categoría. 
+
+Para acceder al resto de las funcionalidades y sectores del sitio, nos deberemos loguear y vamos a poder hacerlo mediante el formulario propio de la página o con Google. Un vez que se completa el registro seremos informados via e-mail. 
+
+Una vez logueados tendremos acceso a todos los sectores del sitio, como el detalle de las publicaciones, el apartado para publicar tus productos, revisar tus interacciones, e interactuar con otros usuarios.
+
+------
+
+A continuación voy a mostrar como sería la interacción entre dos usuarios.
+
+El primer paso seria publicar algo que ya no uses, rellenando con la informacion correspondiente el siguiente formulario.
+
+Una vez creada nuestra publicacion, debemos elegirla en nuestro perfil para poder interactuar con ella, y dirigirnos a la principal para buscar algo de nuestro interes. Una vez encontrado, le daremos al boton canjear y esperaremos a recibir la devolucion. La cual, en el caso de que ocurra, tambien sera informada via e-mail. Una vez logrado el match, tendremos la opcion de acceder a un chat en vivo con nuestro interesado para poder coordinar el intercambio de productos. Una vez finalizado, podras calificar al usuario en cuestion dependiendo de tu experiencia durante el proceso de canje.
+
+(Dividís pantalla con dos usuarios, uno premium y uno normal)
+
+
+
+
+
+
+
+
+
+
+Una vez finalizado el intercambio, tendras la oportunidad de calificar al usuario dependiendo de tu experiencia durante el proceso de canje. 
+
+Bueno, esto ha sido todo, gracias por su atencion e interes, un abrazo grande y los esperamos en LoCanjeamos.com.ar
+
+ 
+
+
+
+
+
+
+
+
+

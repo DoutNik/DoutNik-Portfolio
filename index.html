@@ -1,19 +1,20 @@
 <!DOCTYPE html>
+
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" type="image/png" href="./img/favicon.jpeg"/>
+    <meta charset="utf-8" />
+    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <link href="./img/favicon.jpeg" rel="shortcut icon" type="image/png" />
     <link
-      rel="stylesheet"
+      crossorigin="anonymous"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
       integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
-      crossorigin="anonymous"
       referrerpolicy="no-referrer"
+      rel="stylesheet"
     />
     <title>Carlos Klema portfolio</title>
-    <link rel="stylesheet" href="estilo.css" />
+    <link href="estilo.css" rel="stylesheet" />
   </head>
   <body>
     <!-- MENU ENCABEZADO -->
@@ -24,26 +25,55 @@
         </div>
         <nav id="nav">
           <ul>
-            <li><a href="#inicio" onclick="seleccionar()">HOME</a></li>
-            <li><a href="#sobremi" onclick="seleccionar()">ABOUT ME</a></li>
-            <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
             <li>
-              <a href="#curriculum" onclick="seleccionar()">CURRICULUM</a>
+              <a data-i18n="home" href="#inicio" onclick="seleccionar()"
+                >HOME</a
+              >
             </li>
-            <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+            <li>
+              <a data-i18n="about_me" href="#sobremi" onclick="seleccionar()"
+                >ABOUT ME</a
+              >
+            </li>
+            <li>
+              <a data-i18n="skills" href="#skills" onclick="seleccionar()"
+                >SKILLS</a
+              >
+            </li>
+            <li>
+              <a
+                data-i18n="curriculum"
+                href="#curriculum"
+                onclick="seleccionar()"
+                >CURRICULUM</a
+              >
+            </li>
+            <li>
+              <a data-i18n="portfolio" href="#portfolio" onclick="seleccionar()"
+                >PORTFOLIO</a
+              >
+            </li>
           </ul>
         </nav>
+        <select
+          id="languageSwitcher"
+          style="margin-left: 1rem; padding: 0.3rem"
+        >
+          <option value="en">EN</option>
+          <option value="es">ES</option>
+          <option value="pt">PT</option>
+        </select>
+
         <div class="nav-responsive" onclick="mostrarOcultarMenu()">
           <i class="fa-solid fa-bars"></i>
         </div>
       </header>
     </div>
-
     <!-- SECCION INICIO -->
-    <section id="inicio" class="inicio">
+    <section class="inicio" id="inicio">
       <div class="contenido-banner">
         <div class="contenedor-img">
-          <img src="img/hero.png" alt="" />
+          <img alt="" src="img/hero.png" />
         </div>
         <h1>CARLOS EMANUEL KLEMA</h1>
         <h2>Full Stack Developer</h2>
@@ -66,11 +96,10 @@
         </div>
       </div>
     </section>
-
     <!-- SECCION SOBRE MI -->
-    <section id="sobremi" class="sobremi">
+    <section class="sobremi" id="sobremi">
       <div class="contenido-seccion">
-        <h2>About me</h2>
+        <h2 data-i18n="about_me_title">About me</h2>
         <p>
           <span>Hi there, I'm Charly Klema.</span> A passionate Full Stack Web
           Developer with expertise in JavaScript, React, Redux, Node.js,
@@ -79,77 +108,75 @@
           outstanding performance in innovative technological projects. Ready to
           contribute to success and continuous growth in the IT world.
         </p>
-
         <div class="fila">
           <!-- datos personales -->
           <div class="col">
-            <h3>Personal Data</h3>
+            <h3 data-i18n="personal_data">Personal Data</h3>
             <ul>
               <li>
-                <strong>Birthday</strong>
+                <strong data-i18n="birthday">Birthday</strong>
                 11-12-1999
               </li>
               <li>
-                <strong>Phone</strong>
+                <strong data-i18n="phone">Phone</strong>
                 (+54) 3541 695544 / (+55) 48 9927-5501
               </li>
               <li>
-                <strong>Email</strong>
+                <strong data-i18n="email">Email</strong>
                 carlosklema@hotmail.com
               </li>
               <li>
-                <strong>Address</strong>
+                <strong data-i18n="address">Address</strong>
                 Villa Carlos Paz - Córdoba, Argentina
               </li>
               <li>
-                <strong>Cargo</strong>
-                <span>Open to work</span>
+                <strong data-i18n="position">Cargo</strong>
+                <span data-i18n="open_to_work">Open to work</span>
               </li>
             </ul>
           </div>
-
           <!-- intereses -->
           <div class="col">
-            <h3>Interest</h3>
+            <h3 data-i18n="interest">Interest</h3>
             <div class="contenedor-intereses">
               <div class="interes">
                 <i class="fa-solid fa-gamepad"></i>
-                <span>GAMES</span>
+                <span data-i18n="games">GAMES</span>
               </div>
               <div class="interes">
                 <i class="fa-solid fa-headphones"></i>
-                <span>MUSIC</span>
+                <span data-i18n="music">MUSIC</span>
               </div>
               <div class="interes">
                 <i class="fa-solid fa-plane"></i>
-                <span>TRAVEL</span>
+                <span data-i18n="travel">TRAVEL</span>
               </div>
               <div class="interes">
                 <i class="fa-brands fa-windows"></i>
-                <span>WINDOWS</span>
+                <span data-i18n="windows">WINDOWS</span>
               </div>
               <div class="interes">
                 <i class="fa-solid fa-person-hiking"></i>
-                <span>SPORTS</span>
+                <span data-i18n="sports">SPORTS</span>
               </div>
               <div class="interes">
                 <i class="fa-solid fa-book"></i>
-                <span>BOOKS</span>
+                <span data-i18n="books">BOOKS</span>
               </div>
               <div class="interes">
                 <i class="fa-solid fa-motorcycle"></i>
-                <span>BIKES</span>
+                <span data-i18n="bikes">BIKES</span>
               </div>
               <div class="interes">
                 <i class="fa-solid fa-camera"></i>
-                <span>FOTOS</span>
+                <span data-i18n="photos">FOTOS</span>
               </div>
             </div>
           </div>
         </div>
         <a
-          href="documents/CV-CarlosKlema_Español.pdf"
           download="CV-CarlosKlema-SPANISH"
+          href="documents/CV-CarlosKlema_Español.pdf"
         >
           <button>
             Download CV in Spanish <i class="fa-solid fa-download"></i>
@@ -157,8 +184,8 @@
           </button>
         </a>
         <a
-          href="documents/CV-CarlosKlema_English.pdf"
           download="CV-Carlos-Klema-English"
+          href="documents/CV-CarlosKlema_English.pdf"
         >
           <button>
             Download CV in English <i class="fa-solid fa-download"></i>
@@ -167,7 +194,6 @@
         </a>
       </div>
     </section>
-
     <!-- SECCION SKILLS -->
     <section class="skills" id="skills">
       <div class="contenido-seccion">
@@ -193,7 +219,7 @@
               </div>
             </div>
             <div class="skill">
-              <span>HTML/XML & CSS</span>
+              <span>HTML/XML &amp; CSS</span>
               <div class="barra-skill">
                 <div class="progreso">
                   <span>75%</span>
@@ -233,7 +259,6 @@
               </div>
             </div>
           </div>
-
           <!-- Professional Skills -->
           <div class="col">
             <h3>Professional Skills</h3>
@@ -281,9 +306,8 @@
         </div>
       </div>
     </section>
-
     <!-- SECCION CURRICULUM -->
-    <section id="curriculum" class="curriculum">
+    <section class="curriculum" id="curriculum">
       <div class="contenido-seccion">
         <h2>Curriculum</h2>
         <div class="fila">
@@ -334,7 +358,6 @@
               </div>
             </div>
           </div>
-
           <div class="col derecha">
             <h3>Work experiences</h3>
             <div class="item der">
@@ -342,11 +365,14 @@
               <span class="casa">Freelance (Pizzeria Web "SanCayetano")</span>
               <span class="fecha">Feb. 2024 - In process</span>
               <p>
-                Informational SPA about all the products offered by a famous pizzeria in my hometown and general information about it.<br />
+                Informational SPA about all the products offered by a famous
+                pizzeria in my hometown and general information about it.<br />
                 <br />
-                <strong>Challenges and Responsibilities:</strong><br />                <br />
+                <strong>Challenges and Responsibilities:</strong><br />
+                <br />
                 Learn new technologies like Angular and Photoshop<br />
-                Create a list of all products, categorize them, and display the ordered information on the page.<br />
+                Create a list of all products, categorize them, and display the
+                ordered information on the page.<br />
                 Create or modificate all the images on the site.
               </p>
               <div class="conectord">
@@ -451,80 +477,74 @@
         </div>
       </div>
     </section>
-
     <!-- SECCION PORTFOLIO -->
-    <section id="portfolio" class="portfolio">
+    <section class="portfolio" id="portfolio">
       <div class="contenido-seccion">
         <h2>PORTFOLIO</h2>
         <div class="galeria">
           <div class="proyecto" id="proyecto1">
             <a href="#">
-              <img src="img/p1.jpg" alt="" />
+              <img alt="" src="img/p1.jpg" />
             </a>
             <div class="overlay" onclick="mostrarOpciones('proyecto1')">
               <h3>LoCanjeamos?</h3>
               <h4>Web App</h4>
               <p>Haz click para abrir</p>
-              <div id="opcionesProyecto1" class="opciones">
+              <div class="opciones" id="opcionesProyecto1">
                 <a
+                  class="boton-opcion"
                   href="https://github.com/SantinoMantineo/Lo-Canjeamos"
                   target="_blank"
-                  class="boton-opcion"
                   >GitHub<i class="fa-brands fa-github"></i
                 ></a>
                 <div class="opciones-divider"></div>
                 <a
+                  class="boton-opcion"
                   href="https://locanjeamos.com.ar/#/login"
                   target="_blank"
-                  class="boton-opcion"
                   >Sitio web<i class="fa-solid fa-arrows-rotate"></i
                 ></a>
               </div>
             </div>
           </div>
-
           <div class="proyecto" id="proyecto2">
-            <img src="img/p2.png" alt="" />
+            <img alt="" src="img/p2.png" />
             <div class="overlay" onclick="mostrarOpciones('proyecto2')">
               <h3>TiendasLocales</h3>
               <h4>Web App</h4>
               <p>Haz click para abrir</p>
-              <div id="opcionesProyecto2" class="opciones">
+              <div class="opciones" id="opcionesProyecto2">
                 <a
+                  class="boton-opcion"
                   href="https://github.com/maxivalli/TiendasLocales"
                   target="_blank"
-                  class="boton-opcion"
                   >GitHub<i class="fa-brands fa-github"></i
                 ></a>
                 <div class="opciones-divider"></div>
                 <a
+                  class="boton-opcion"
                   href="https://www.tiendaslocales.com.ar/"
                   target="_blank"
-                  class="boton-opcion"
                   >Sitio web<i class="fa-solid fa-arrows-rotate"></i
                 ></a>
               </div>
             </div>
           </div>
-
           <div class="proyecto" id="proyecto3">
-            <img src="img/p3.jpg" alt="" />
+            <img alt="" src="img/p3.jpg" />
             <div class="overlay" onclick="mostrarOpciones('proyecto3')">
               <h3>Pizzeria San Cayetano</h3>
               <h4>Web Page</h4>
               <p>Haz click para abrir</p>
-              <div id="opcionesProyecto2" class="opciones">
+              <div class="opciones" id="opcionesProyecto2">
                 <a
+                  class="boton-opcion"
                   href="https://github.com/DoutNik/San-Cayetano-Web"
                   target="_blank"
-                  class="boton-opcion"
                   >GitHub<i class="fa-brands fa-github"></i
                 ></a>
                 <div class="opciones-divider"></div>
-                <a
-                  href=""
-                  target="_blank"
-                  class="boton-opcion"
+                <a class="boton-opcion" href="" target="_blank"
                   >Sitio web<i class="fa-solid fa-arrows-rotate"></i
                 ></a>
               </div>
@@ -533,10 +553,9 @@
         </div>
       </div>
     </section>
-
     <!-- footer -->
     <footer>
-      <a href="#inicio" class="arriba">
+      <a class="arriba" href="#inicio">
         <i class="fa-solid fa-angles-up"></i>
       </a>
       <div class="redes">
@@ -567,5 +586,6 @@
       }
     </script>
     <script src="script.js"></script>
+    <script src="i18n.js"></script>
   </body>
 </html>
