@@ -1,4 +1,3 @@
-
 const translations = {
   en: {
     home: "HOME",
@@ -7,7 +6,8 @@ const translations = {
     curriculum: "CURRICULUM",
     portfolio: "PORTFOLIO",
     about_me_title: "About me",
-    about_me_text: "Hi there, I'm Charly Klema. A passionate Full Stack Web Developer with expertise in JavaScript, React, Redux, Node.js, PostgreSQL, Sequelize, Express, and Socket.io...",
+    about_me_text:
+      "Hi there, I'm Charly Klema. A passionate Full Stack Web Developer with expertise in JavaScript, React, Redux, Node.js, PostgreSQL, Sequelize, Express, and Socket.io...",
     personal_data: "Personal Data",
     birthday: "Birthday",
     phone: "Phone",
@@ -26,6 +26,61 @@ const translations = {
     photos: "PHOTOS",
     download_cv_es: "Download CV in Spanish",
     download_cv_en: "Download CV in English",
+    skills2: "skills",
+    technical_skills: "technical_skills",
+    professional_skills: "Professional Skills",
+    comunication: "comunication",
+    team_work: "Teamwork",
+    creativity: "Creativity",
+    dedication: "Dedication",
+    project_managment: "Project managment",
+    curriculum2: "Curriculum",
+    education: "Education",
+    full_stack_developer: "Full Stack Developer",
+    henry_date: "Aug. 2023 - Nov. 2023",
+    henry_description:
+      "I successfully graduated from the HENRY Bootcamp, an intensive program that transformed me into a proficient Full Stack Developer. I gained key skills in JavaScript, React, Redux, Sequelize, PostgreSQL, Express, and Node.js, focusing on hands-on development of complete web applications. Collaborative experience on real-world projects provided me with a solid foundation to confidently and effectively tackle challenges in web development.",
+    education_level: "Bachelor in Natural Sciences",
+    education_description:
+      "I successfully completed my secondary education, earning a Bachelor's degree in Natural Sciences. This achievement reflects my dedication and passion for exploring the world of sciences. Now, with a strong academic foundation in natural sciences, I am prepared to apply my knowledge and skills in professional settings and tackle innovative challenges with a scientific perspective.",
+    waiting: "Waiting for knowledge...",
+    work_experiences: "Work experiences",
+    freelance_pizzeria: 'Freelance (Pizzeria Website "SanCayetano")',
+    sancayetano_data: "Feb. 2024 - Ongoing",
+    sancayetano_description:
+      "Informational SPA about all the products offered by a famous pizzeria in my hometown and general information about it.",
+    challenges_and_responsabilities: "Challenges and Responsibilities:",
+    sancayetano_responsabilities:
+      "Learn new technologies like Angular and Photoshop. Create a list of all products, categorize them, and display the ordered information on the page. Create or modificate all the images on the site.",
+    tiendaslocales_data: "Dec. 2023 - Jul. 2024",
+    tiendaslocales_description:
+      "In my role as a Full Stack Developer, I participated in the development of an innovative web platform designed to connect and empower local businesses in a city of 15,000 inhabitants. The central goal of this project was to create a virtual space that encouraged seamless interaction between residents and local merchants, emulating the experience of an online shopping dedicated to the community.",
+    CyR_tiendaslocales_1:
+      "CRUD of Models in the Database with their routes and controllers.",
+    CyR_tiendaslocales_2:
+      "Front-back connection and distribution of information on the website through Redux.",
+    CyR_tiendaslocales_3: "InApp notifications with Socket.IO.",
+    CyR_tiendaslocales_4: "Push notifications with FCM.",
+    CyR_tiendaslocales_5: "Communication system with ChatEngine.",
+    CyR_tiendaslocales_6: "Creation of Forms with Validations.",
+    CyR_tiendaslocales_7: "Combined filters and search bar.",
+    locanjeamos: "Oct. 2023 - Nov.2023",
+    locanjeamos_description:
+      "I actively participated in a collaborative team with the aim of addressing a specific economic need in Argentina: the exchange of items. As an integral part of this effort, I contributed to the design and development of an innovative Single Page Application (SPA) in the format of a Progressive Web App (PWA).",
+    CyR_locanjeamos_1: "Chat system with Socket.io.",
+    CyR_locanjeamos_2: "InApp notifications with Socket.io.",
+    CyR_locanjeamos_3: "Matchmaking system.",
+    CyR_locanjeamos_4: "Back-Front connection using Redux.",
+    CyR_locanjeamos_5: "Implementation of combined filters and search bar.",
+    restaurant_manager: "Restaurant Manager",
+    Restaurant_manager_description:
+      "In my previous role as a restaurant manager, I played a crucial role in efficiently managing daily operations. I supervised and led staff, ensuring high-quality service and a positive customer experience. My responsibilities also included handling product stock, coordinating with suppliers to ensure timely supplies, as well as managing and reconciling cash transactions. Additionally, I was in charge of completing and maintaining records related to financial transactions and resource management. These responsibilities showcase my ability to lead teams, manage resources, and ensure operational efficiency in a dynamic restaurant environment.",
+    waiter:"Waiter",
+    waiter_description:"During my experience as a waiter, I took on additional roles as a receptionist and head waiter, enhancing my contribution to the team. As a waiter, I provided attentive and efficient service, ensuring a positive experience for customers. Additionally, I performed receptionist duties, managing reservations, answering calls, and providing key information to diners. In my role as head waiter, I coordinated staff tasks, ensuring efficiency in service and customer satisfaction. This combination of skills reflects my versatility and commitment to customer service excellence in various aspects of the restaurant environment.",
+    haz_click:"Click to open",
+    web_site:"Website",
+    web_app:"Web app",
+    web_page:"Webpage",
   },
   es: {
     home: "INICIO",
@@ -34,7 +89,8 @@ const translations = {
     curriculum: "CURRÍCULUM",
     portfolio: "PORTAFOLIO",
     about_me_title: "Sobre mí",
-    about_me_text: "Hola, soy Charly Klema. Un apasionado Desarrollador Full Stack con experiencia en JavaScript, React, Redux, Node.js, PostgreSQL, Sequelize, Express y Socket.io...",
+    about_me_text:
+      "Hola, soy Charly Klema. Un apasionado Desarrollador Full Stack con experiencia en JavaScript, React, Redux, Node.js, PostgreSQL, Sequelize, Express y Socket.io...",
     personal_data: "Datos Personales",
     birthday: "Cumpleaños",
     phone: "Teléfono",
@@ -53,6 +109,64 @@ const translations = {
     photos: "FOTOS",
     download_cv_es: "Descargar CV en Español",
     download_cv_en: "Descargar CV en Inglés",
+    skills2: "Habilidades",
+    technical_skills: "habilidades técnicas",
+    professional_skills: "Habilidades profecionales",
+    comunication: "Comunicación",
+    team_work: "Trabajo en equipo",
+    creativity: "Creatividad",
+    dedication: "Dedicación",
+    project_managment: "Gestión de projectos",
+    curriculum2: "currículum",
+    education: "Educación",
+    full_stack_developer: "Desarrollador Full-Stack",
+    henry_date: "Ago. 2023 - Nov. 2023",
+    henry_description:
+      "Me gradué exitosamente del Bootcamp de HENRY, un programa intensivo que me transformó en un desarrollador Full Stack competente. Adquirí habilidades clave en JavaScript, React, Redux, Sequelize, PostgreSQL, Express y Node.js, enfocándome en el desarrollo práctico de aplicaciones web completas. La experiencia colaborativa en proyectos reales me brindó una base sólida para enfrentar con confianza y eficacia los desafíos del desarrollo web.",
+    education_level: "Licenciatura en Ciencias Naturales",
+    education_description:
+      "Completé exitosamente mi educación secundaria, obteniendo una licenciatura en Ciencias Naturales. Este logro refleja mi dedicación y pasión por explorar el mundo de las ciencias. Ahora, con una sólida base académica en ciencias naturales, estoy preparado para aplicar mis conocimientos y habilidades en entornos profesionales y enfrentar desafíos innovadores con una perspectiva científica.",
+    waiting: "Esperando conocimiento...",
+    work_experiences: "Experiencias laborales",
+    freelance_pizzeria: 'Freelance (Pizzería Web "SanCayetano")',
+    sancayetano_data: "Feb. 2024 - En proceso",
+    sancayetano_description:
+      "SPA informativa sobre todos los productos ofrecidos por una pizzería reconocida de mi ciudad natal, junto con información general sobre ella.",
+    challenges_and_responsabilities: "Desafíos y responsabilidades:",
+    sancayetano_responsabilities:
+      "Aprender nuevas tecnologías como Angular y Photoshop. Crear una lista de todos los productos, categorizarlos y mostrar la información ordenada en la página. Crear o modificar todas las imágenes del sitio.",
+    tiendaslocales_data: "Dic. 2023 - jul. 2024",
+    tiendaslocales_description:
+      "En mi rol como Desarrollador Full Stack, participé en el desarrollo de una innovadora plataforma web diseñada para conectar y empoderar a los comercios locales de una ciudad de 15.000 habitantes. El objetivo central de este proyecto fue crear un espacio virtual que fomentara la interacción fluida entre los residentes y los comerciantes locales, emulando la experiencia de una tienda online dedicada a la comunidad.",
+    CyR_tiendaslocales_1:
+      "CRUD de modelos en la base de datos con sus rutas y controladores.",
+    CyR_tiendaslocales_2:
+      "Conexión front-back y distribución de la información en el sitio web mediante Redux.",
+    CyR_tiendaslocales_3:
+      "Notificaciones dentro de la aplicación con Socket.IO.",
+    CyR_tiendaslocales_4: "Creación de formularios con validaciones.",
+    CyR_tiendaslocales_5: "Filtros combinados y barra de búsqueda.",
+    CyR_tiendaslocales_6: "Notificaciones push con FCM.",
+    CyR_tiendaslocales_7: "Sistema de comunicación con ChatEngine.",
+    locanjeamos: "Oct. 2023 - Nov.2023",
+    locanjeamos_description:
+      "Participé activamente en un equipo colaborativo con el objetivo de abordar una necesidad económica específica en Argentina: el trueque de objetos. Como parte integral de este esfuerzo, contribuí al diseño y desarrollo de una innovadora Aplicación de Página Única (SPA) en formato de Aplicación Web Progresiva (PWA).",
+    CyR_locanjeamos_1: "Sistema de chat con Socket.io",
+    CyR_locanjeamos_2: "Notificaciones dentro de la aplicación con Socket.io",
+    CyR_locanjeamos_3: "Sistema de emparejamiento",
+    CyR_locanjeamos_4: "Conexión Back-Front usando Redux",
+    CyR_locanjeamos_5:
+      "Implementación de filtros combinados y barra de búsqueda",
+    restaurant_manager: "Encargado de restaurante",
+    Restaurant_manager_description:
+      "En mi anterior rol como gerente de restaurante, desempeñé un papel crucial en la gestión eficiente de las operaciones diarias. Supervisé y lideré al personal, asegurando un servicio de alta calidad y una experiencia positiva para los clientes. Mis responsabilidades también incluían el manejo del stock de productos, la coordinación con proveedores para garantizar suministros a tiempo, así como la gestión y conciliación de transacciones en efectivo. Además, me encargaba de completar y mantener registros relacionados con transacciones financieras y gestión de recursos. Estas responsabilidades reflejan mi capacidad para liderar equipos, gestionar recursos y asegurar la eficiencia operativa en un entorno dinámico de restaurante.",
+    waiter: "Camarero",
+    waiter_description:"Durante mi experiencia como camarero, asumí roles adicionales como recepcionista y jefe de camareros, ampliando mi contribución al equipo. Como camarero, brindé un servicio atento y eficiente, asegurando una experiencia positiva para los clientes. Además, realicé funciones de recepcionista, gestionando reservas, atendiendo llamadas y proporcionando información clave a los comensales. En mi rol de jefe de camareros, coordiné las tareas del personal, garantizando eficiencia en el servicio y satisfacción del cliente. Esta combinación de habilidades refleja mi versatilidad y compromiso con la excelencia en la atención al cliente en diversos aspectos del entorno restaurantero.",
+    haz_click:"Haz click para abrir",
+    web_site:"Sitio Web",
+    web_app:"Aplicación web",
+    web_page:"Página web",
+
   },
   pt: {
     home: "INÍCIO",
@@ -61,7 +175,8 @@ const translations = {
     curriculum: "CURRÍCULO",
     portfolio: "PORTFÓLIO",
     about_me_title: "Sobre mim",
-    about_me_text: "Olá, sou Charly Klema. Um desenvolvedor Full Stack apaixonado com experiência em JavaScript, React, Redux, Node.js, PostgreSQL, Sequelize, Express e Socket.io...",
+    about_me_text:
+      "Olá, sou Charly Klema. Um desenvolvedor Full Stack apaixonado com experiência em JavaScript, React, Redux, Node.js, PostgreSQL, Sequelize, Express e Socket.io...",
     personal_data: "Dados Pessoais",
     birthday: "Aniversário",
     phone: "Telefone",
@@ -80,5 +195,61 @@ const translations = {
     photos: "FOTOS",
     download_cv_es: "Baixar CV em Espanhol",
     download_cv_en: "Baixar CV em Inglês",
+    skills2: "Habilidades",
+    technical_skills: "Habilidades técnicas",
+    professional_skills: "Habilidades profissionais",
+    comunication: "Comunicação",
+    team_work: "Trabalho em equipe",
+    creativity: "Criatividade",
+    dedication: "Dedicação",
+    project_managment: "Gestão de projetos",
+    curriculum2: "Currículo",
+    education: "Educação",
+    full_stack_developer: "Desenvolvedor Full-Stack",
+    henry_date: "Ago. 2023 - Nov. 2023",
+    henry_description:
+      "Concluí com sucesso o Bootcamp da HENRY, um programa intensivo que me transformou em um desenvolvedor Full Stack competente. Adquiri habilidades essenciais em JavaScript, React, Redux, Sequelize, PostgreSQL, Express e Node.js, com foco no desenvolvimento prático de aplicações web completas. A experiência colaborativa em projetos reais me proporcionou uma base sólida para enfrentar os desafios do desenvolvimento web com confiança e eficácia.",
+    education_level: "Bacharelado em Ciências Naturais",
+    education_description:
+      "Concluí com sucesso minha educação secundária, obtendo um bacharelado em Ciências Naturais. Esta conquista reflete minha dedicação e paixão por explorar o mundo das ciências. Agora, com uma sólida base acadêmica em ciências naturais, estou preparado para aplicar meus conhecimentos e habilidades em ambientes profissionais e enfrentar desafios inovadores com uma perspectiva científica.",
+    waiting: "Esperando pelo conhecimento...",
+    work_experiences: "Experiências de trabalho",
+    freelance_pizzeria: 'Freelancer (Site da Pizzaria "SanCayetano")',
+    sancayetano_data: "Fev. 2024 - Em andamento",
+    sancayetano_description:
+      "SPA informativa sobre todos os produtos oferecidos por uma pizzaria famosa da minha cidade natal e informações gerais sobre ela.",
+    challenges_and_responsabilities: "Desafios e responsabilidades:",
+    sancayetano_responsabilities:
+      "Aprender novas tecnologias como Angular e Photoshop. Criar uma lista de todos os produtos, categorizá-los e exibir as informações organizadas na página. Criar ou modificar todas as imagens do site.",
+    tiendaslocales_data: "Dec. 2023 - Em andamento",
+    tiendaslocales_description:
+      "No meu papel como Desenvolvedor Full Stack, participei do desenvolvimento de uma plataforma web inovadora projetada para conectar e fortalecer os negócios locais de uma cidade com 15.000 habitantes. O objetivo central deste projeto foi criar um espaço virtual que promovesse a interação fluida entre os moradores e os comerciantes locais, emulando a experiência de uma loja online voltada para a comunidade.",
+    CyR_tiendaslocales_1: "Notificações push com FCM.",
+    CyR_tiendaslocales_2: "Sistema de comunicação com ChatEngine.",
+    CyR_tiendaslocales_3: "Filtros combinados e barra de pesquisa.",
+    CyR_tiendaslocales_4: "Criação de formulários com validações.",
+    CyR_tiendaslocales_5: "Notificações dentro do aplicativo com Socket.IO.",
+    CyR_tiendaslocales_6:
+      "Conexão front-back e distribuição das informações no site através do Redux.",
+    CyR_tiendaslocales_7:
+      "CRUD de modelos no banco de dados com suas rotas e controladores.",
+    locanjeamos: "Out. 2023 - Nov.2023",
+    locanjeamos_description:
+      "Participei ativamente de uma equipe colaborativa com o objetivo de atender a uma necessidade econômica específica da Argentina: a troca de itens. Como parte fundamental desse esforço, contribuí para o design e desenvolvimento de uma inovadora Aplicação de Página Única (SPA) no formato de Aplicativo Web Progressivo (PWA).",
+    CyR_locanjeamos_1: "Sistema de chat com Socket.io",
+    CyR_locanjeamos_2: "Notificações dentro do aplicativo com Socket.io",
+    CyR_locanjeamos_3: "Sistema de pareamento",
+    CyR_locanjeamos_4: "Conexão Back-Front usando Redux",
+    CyR_locanjeamos_5:
+      "Implementação de filtros combinados e barra de pesquisa",
+    restaurant_manager: "Gerente de restaurante",
+    Restaurant_manager_description:
+      "No meu cargo anterior como gerente de restaurante, desempenhei um papel essencial na gestão eficiente das operações diárias. Supervisionava e liderava a equipe, garantindo um serviço de alta qualidade e uma experiência positiva para os clientes. Minhas responsabilidades também incluíam o controle de estoque de produtos, a coordenação com fornecedores para garantir entregas pontuais, bem como a gestão e conciliação de transações em dinheiro. Além disso, eu era responsável por preencher e manter registros relacionados a transações financeiras e à gestão de recursos. Essas responsabilidades demonstram minha capacidade de liderar equipes, gerenciar recursos e garantir a eficiência operacional em um ambiente dinâmico de restaurante.",
+    waiter: "Garçom",
+    waiter_description:"Durante minha experiência como garçom, assumi funções adicionais como recepcionista e chefe de garçons, ampliando minha contribuição para a equipe. Como garçom, ofereci um serviço atencioso e eficiente, garantindo uma experiência positiva para os clientes. Além disso, desempenhei funções de recepcionista, gerenciando reservas, atendendo chamadas e fornecendo informações essenciais aos clientes. No meu papel de chefe de garçons, coordenei as tarefas da equipe, assegurando eficiência no serviço e satisfação do cliente. Essa combinação de habilidades reflete minha versatilidade e compromisso com a excelência no atendimento ao cliente em vários aspectos do ambiente de restaurante.",
+    haz_click:"Clique para abrir",
+    web_site:"Site da internet",
+    web_app:"Aplicação web",
+    web_page: "Página web",
   },
 };

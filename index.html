@@ -100,7 +100,7 @@
     <section class="sobremi" id="sobremi">
       <div class="contenido-seccion">
         <h2 data-i18n="about_me_title">About me</h2>
-        <p>
+        <p data-i18n="about_me_text">
           <span>Hi there, I'm Charly Klema.</span> A passionate Full Stack Web
           Developer with expertise in JavaScript, React, Redux, Node.js,
           PostgreSQL, Sequelize, Express, and Socket.io. My adaptability and
@@ -178,7 +178,7 @@
           download="CV-CarlosKlema-SPANISH"
           href="documents/CV-CarlosKlema_Español.pdf"
         >
-          <button>
+          <button data-i18n="download_cv_es">
             Download CV in Spanish <i class="fa-solid fa-download"></i>
             <span class="overlay"></span>
           </button>
@@ -187,7 +187,7 @@
           download="CV-Carlos-Klema-English"
           href="documents/CV-CarlosKlema_English.pdf"
         >
-          <button>
+          <button data-i18n="download_cv_en">
             Download CV in English <i class="fa-solid fa-download"></i>
             <span class="overlay"></span>
           </button>
@@ -197,13 +197,13 @@
     <!-- SECCION SKILLS -->
     <section class="skills" id="skills">
       <div class="contenido-seccion">
-        <h2>Skills</h2>
+        <h2 data-i18n="skills2">Skills</h2>
         <div class="fila">
           <!-- Technical Skill -->
           <div class="col">
-            <h3>Technical Skills</h3>
+            <h3 data-i18n="technical_skills">Technical Skills</h3>
             <div class="skill">
-              <span>Javascript</span>
+              <span>JavaScript</span>
               <div class="barra-skill">
                 <div class="progreso">
                   <span>76%</span>
@@ -261,9 +261,9 @@
           </div>
           <!-- Professional Skills -->
           <div class="col">
-            <h3>Professional Skills</h3>
+            <h3 data-i18n="professional_skills">Professional Skills</h3>
             <div class="skill">
-              <span>Comunication</span>
+              <span data-i18n="comunication">Comunication</span>
               <div class="barra-skill">
                 <div class="progreso">
                   <span>79%</span>
@@ -271,7 +271,7 @@
               </div>
             </div>
             <div class="skill">
-              <span>Team work</span>
+              <span data-i18n="team_work">Teamwork</span>
               <div class="barra-skill">
                 <div class="progreso">
                   <span>73%</span>
@@ -279,7 +279,7 @@
               </div>
             </div>
             <div class="skill">
-              <span>Creativity</span>
+              <span data-i18n="creativity">Creativity</span>
               <div class="barra-skill">
                 <div class="progreso">
                   <span>85%</span>
@@ -287,7 +287,7 @@
               </div>
             </div>
             <div class="skill">
-              <span>Dedication</span>
+              <span data-i18n="dedication">Dedication</span>
               <div class="barra-skill">
                 <div class="progreso">
                   <span>95%</span>
@@ -295,7 +295,7 @@
               </div>
             </div>
             <div class="skill">
-              <span>Proyect Management</span>
+              <span data-i18n="project_managment">Project Management</span>
               <div class="barra-skill">
                 <div class="progreso">
                   <span>90%</span>
@@ -309,15 +309,17 @@
     <!-- SECCION CURRICULUM -->
     <section class="curriculum" id="curriculum">
       <div class="contenido-seccion">
-        <h2>Curriculum</h2>
+        <h2 data-i18n="curriculum2">Curriculum</h2>
         <div class="fila">
           <div class="col izquierda">
-            <h3>Education</h3>
+            <h3 data-i18n="education">Education</h3>
             <div class="item izq">
-              <h4>Full Stack Developer</h4>
+              <h4 data-i18n="full_stack_developer">Full Stack Developer</h4>
               <span class="casa">HENRY Bootcamp</span>
-              <span class="fecha">Ago. 2023 - Nov. 2023</span>
-              <p>
+              <span class="fecha" data-i18n="henry_date"
+                >Ago. 2023 - Nov. 2023</span
+              >
+              <p data-i18n="henry_description">
                 I successfully graduated from the HENRY Bootcamp, an intensive
                 program that transformed me into a proficient Full Stack
                 Developer. I gained key skills in JavaScript, React, Redux,
@@ -332,10 +334,10 @@
               </div>
             </div>
             <div class="item izq">
-              <h4>Bachelor in natural sciences</h4>
+              <h4 data-i18n="education_level">Bachelor in Natural Sciences</h4>
               <span class="casa">Instituto Parroquial Bernardo D'Elia</span>
               <span class="fecha">2012 - 2018</span>
-              <p>
+              <p data-i18n="education_description">
                 I successfully completed my secondary education, earning a
                 Bachelor's degree in Natural Sciences. This achievement reflects
                 my dedication and passion for exploring the world of sciences.
@@ -349,7 +351,7 @@
               </div>
             </div>
             <div class="item izq">
-              <h4>Waiting for knowledge...</h4>
+              <h4 data-i18n="waiting">Waiting for knowledge...</h4>
               <span class="casa">Empty</span>
               <span class="fecha">Emty</span>
               <p>mt</p>
@@ -359,17 +361,25 @@
             </div>
           </div>
           <div class="col derecha">
-            <h3>Work experiences</h3>
+            <h3 data-i18n="work_experiences">Work experiences</h3>
             <div class="item der">
-              <h4>Full Stack Web Developer</h4>
-              <span class="casa">Freelance (Pizzeria Web "SanCayetano")</span>
-              <span class="fecha">Feb. 2024 - In process</span>
-              <p>
+              <h4 data-i18n="full_stack_developer">Full Stack Developer</h4>
+              <span class="casa" data-i18n="freelance_pizzeria"
+                >Freelance (Pizzeria Website "SanCayetano")</span
+              >
+              <span class="fecha" data-i18n="sancayetano_data"
+                >Feb. 2024 - In process</span
+              >
+              <p data-i18n="sancayetano_description">
                 Informational SPA about all the products offered by a famous
                 pizzeria in my hometown and general information about it.<br />
-                <br />
-                <strong>Challenges and Responsibilities:</strong><br />
-                <br />
+              </p>
+              <br />
+              <strong data-i18n="challenges_and_responsabilities"
+                >Challenges and Responsibilities:</strong
+              ><br />
+              <br />
+              <p data-i18n="sancayetano_responsabilities">
                 Learn new technologies like Angular and Photoshop<br />
                 Create a list of all products, categorize them, and display the
                 ordered information on the page.<br />
@@ -380,63 +390,61 @@
               </div>
             </div>
             <div class="item der">
-              <h4>Full Stack Developer</h4>
-              <span class="casa">Freelance (tiendasLocales)</span>
-              <span class="fecha">Dec. 2023 - In process</span>
-              <p>
+              <h4 data-i18n="full_stack_developer">Full Stack Developer</h4>
+              <span class="casa">Freelance (TiendasLocales)</span>
+              <span class="fecha" data-i18n="tiendaslocales_data">Dec. 2023 - In process</span>
+              <p data-i18n="tiendaslocales_description">
                 In my role as a Full Stack Developer, I participated in the
                 development of an innovative web platform designed to connect
                 and empower local businesses in a city of 15,000 inhabitants.
                 The central goal of this project was to create a virtual space
                 that encouraged seamless interaction between residents and local
                 merchants, emulating the experience of an online shopping
-                dedicated to the community.<br />
+                dedicated to the community.<br /></p>
                 <br />
-                <strong>Challenges and Responsibilities:</strong><br />
+                <strong data-i18n="challenges_and_responsabilities">Challenges and Responsibilities:</strong><br />
                 <br />
-                CRUD of Models in the Database with their routes and
-                controllers.<br />
-                Front-back connection and distribution of information on the
-                website through Redux.<br />
-                InApp notifications with Socket.IO.<br />
-                Push notifications with FCM.<br />
-                Communication system with ChatEngine.<br />
-                Creation of Forms with Validations.<br />
-                Combined filters and search bar.<br />
-              </p>
+                <p data-i18n="CyR_tiendaslocales_1">CRUD of Models in the Database with their routes and
+                controllers.<br /></p>
+                <p data-i18n="CyR_tiendaslocales_2">Front-back connection and distribution of information on the
+                website through Redux.<br /></p>
+                <p data-i18n="CyR_tiendaslocales_3">InApp notifications with Socket.IO.<br /></p>
+                <p data-i18n="CyR_tiendaslocales_4">Push notifications with FCM.<br /></p>
+                <p data-i18n="CyR_tiendaslocales_5">Communication system with ChatEngine.<br /></p>
+                <p data-i18n="CyR_tiendaslocales_6">Creation of Forms with Validations.<br /></p>
+                <p data-i18n="CyR_tiendaslocales_7">Combined filters and search bar.<br /></p>
               <div class="conectord">
                 <div class="circulod"></div>
               </div>
             </div>
             <div class="item der">
-              <h4>Full Stack Developer</h4>
-              <span class="casa">HENRY (final proyect)</span>
-              <span class="fecha">Oct. 2023 - In process</span>
-              <p>
+              <h4 data-i18n="full_stack_developer">Full Stack Developer</h4>
+              <span class="casa" data-i18n="">HENRY (final proyect). "LoCanjeamos?"</span>
+              <span class="fecha" data-i18n="locanjeamos">Oct. 2023 - Nov.2023</span>
+              <p data-i18n="locanjeamos_description">
                 I actively participated in a collaborative team with the aim of
                 addressing a specific economic need in Argentina: the exchange
                 of items. As an integral part of this effort, I contributed to
                 the design and development of an innovative Single Page
                 Application (SPA) in the format of a Progressive Web App
-                (PWA).<br />
+                (PWA).<br /></p>
                 <br />
-                <strong>Challenges and Responsibilities:</strong><br />
+                <strong data-i18n="challenges_and_responsabilities">Challenges and Responsibilities:</strong><br />
                 <br />
-                Chat system with Socket.io.<br />
-                InApp notifications with Socket.io.<br />
-                Matchmaking system.<br />
-                Back-Front connection using Redux.<br />
-                Implementation of combined filters and search bar.<br />
-              </p>
+                <p data-i18n="CyR_locanjeamos_1">Chat system with Socket.io.<br /></p>
+                <p data-i18n="CyR_locanjeamos_2">InApp notifications with Socket.io.<br /></p>
+                <p data-i18n="CyR_locanjeamos_3">Matchmaking system.<br /></p>
+                <p data-i18n="CyR_locanjeamos_4">Back-Front connection using Redux.<br /></p>
+                <p data-i18n="CyR_locanjeamos_5">Implementation of combined filters and search bar.<br /></p>
               <div class="conectord">
                 <div class="circulod"></div>
               </div>
             </div>
             <div class="item der">
-              <h4>Restaurant Manager</h4>
+              <h4 data-i18n="restaurant_manager">Restaurant Manager</h4>
               <span class="casa">Di Metro</span>
               <span class="fecha">2021 - 2022</span>
-              <p>
+              <p data-i18n="Restaurant_manager_description">
                 In my previous role as a restaurant manager, I played a crucial
                 role in efficiently managing daily operations. I supervised and
                 led staff, ensuring high-quality service and a positive customer
@@ -454,10 +462,10 @@
               </div>
             </div>
             <div class="item der">
-              <h4>Waiter</h4>
+              <h4 data-i18n="waiter">Waiter</h4>
               <span class="casa">Di Metro</span>
               <span class="fecha">2018 - 2021</span>
-              <p>
+              <p data-i18n="waiter_description">
                 During my experience as a waiter, I took on additional roles as
                 a receptionist and head waiter, enhancing my contribution to the
                 team. As a waiter, I provided attentive and efficient service,
@@ -489,7 +497,7 @@
             <div class="overlay" onclick="mostrarOpciones('proyecto1')">
               <h3>LoCanjeamos?</h3>
               <h4>Web App</h4>
-              <p>Haz click para abrir</p>
+              <p data-i18n="haz_click">Haz click para abrir</p>
               <div class="opciones" id="opcionesProyecto1">
                 <a
                   class="boton-opcion"
@@ -502,6 +510,7 @@
                   class="boton-opcion"
                   href="https://locanjeamos.com.ar/#/login"
                   target="_blank"
+                  data-i18n="web_site"
                   >Sitio web<i class="fa-solid fa-arrows-rotate"></i
                 ></a>
               </div>
@@ -511,8 +520,8 @@
             <img alt="" src="img/p2.png" />
             <div class="overlay" onclick="mostrarOpciones('proyecto2')">
               <h3>TiendasLocales</h3>
-              <h4>Web App</h4>
-              <p>Haz click para abrir</p>
+              <h4 data-i18n="web_app">Web App</h4>
+              <p data-i18n="haz_click">Haz click para abrir</p>
               <div class="opciones" id="opcionesProyecto2">
                 <a
                   class="boton-opcion"
@@ -525,6 +534,7 @@
                   class="boton-opcion"
                   href="https://www.tiendaslocales.com.ar/"
                   target="_blank"
+                  data-i18n="web_site"
                   >Sitio web<i class="fa-solid fa-arrows-rotate"></i
                 ></a>
               </div>
@@ -534,8 +544,8 @@
             <img alt="" src="img/p3.jpg" />
             <div class="overlay" onclick="mostrarOpciones('proyecto3')">
               <h3>Pizzeria San Cayetano</h3>
-              <h4>Web Page</h4>
-              <p>Haz click para abrir</p>
+              <h4 data-i18n="web_page">Web Page</h4>
+              <p data-i18n="haz_click">Haz click para abrir</p>
               <div class="opciones" id="opcionesProyecto2">
                 <a
                   class="boton-opcion"
@@ -544,7 +554,7 @@
                   >GitHub<i class="fa-brands fa-github"></i
                 ></a>
                 <div class="opciones-divider"></div>
-                <a class="boton-opcion" href="" target="_blank"
+                <a class="boton-opcion" href="" target="_blank" data-i18n="web_site"
                   >Sitio web<i class="fa-solid fa-arrows-rotate"></i
                 ></a>
               </div>
@@ -587,6 +597,5 @@
     </script>
     <script src="i18n.js"></script>
     <script src="script.js"></script>
-    
   </body>
 </html>
